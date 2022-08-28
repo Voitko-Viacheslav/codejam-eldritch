@@ -1,0 +1,131 @@
+body {
+  background: url("../assets/bag.jpg") no-repeat;
+}
+
+.wrapper-game {
+  display: flex;
+}
+
+.wrapper-encient-and-level {
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+}
+
+.encient-card {
+  width: 300px;
+  height: 400px;
+}
+
+.level {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn-level {
+  width: 150px;
+  height: 100px;
+  padding: 10px;
+  color: gold;
+  background-color: brown;
+}
+
+.mix-card {
+  display: flex;
+  align-items: center;
+}
+
+.mix-up {
+  width: 100px;
+  height: 70px;
+  padding: 10px;
+  color: rgb(137, 129, 81);
+  background-color: rgb(64, 64, 92);
+  opacity: 0;
+}
+
+.mix-up-display {
+  opacity: 1;
+}
+
+.wraper-card {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.card-position {
+ margin-top: 20px;
+ margin-bottom: 30px;
+ opacity: 0;
+}
+.card-position-display {
+  opacity: 1;
+}
+
+
+.title {
+  font-size: 18px;
+  color: #fff;
+}
+
+.title-color-stage {
+  color: orange;
+}
+
+.number {
+  border-radius: 50%;
+  padding: 7px 10px;
+  margin-right: 5px;
+}
+
+.stage-one-number-green,
+.stage-two-number-green,
+.stage-three-number-green
+ {
+  background-color: green;
+}
+.stage-one-number-gray,
+.stage-two-number-gray,
+.stage-three-number-gray
+{
+  background-color: grey;
+}
+.stage-one-number-blue,
+.stage-two-number-blue,
+.stage-three-number-blue
+ {
+  background-color: blue;
+}
+.card-bacg {
+  width: 130px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  opacity: 0;
+}
+
+.card-bacg-display {
+  opacity: 1;
+}
+
+
+.card-result {
+  width: 130px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  opacity: 0;
+}
+.card-result-display {
+  opacity: 1;
+}
